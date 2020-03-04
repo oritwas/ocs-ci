@@ -101,3 +101,6 @@ filter_insecure_request_warning = pytest.mark.filterwarnings(
 
 # here is the place to implement some plugins hooks which will process marks
 # if some operation needs to be done for some specific marked tests.
+
+# Marker for skipping tests based on OCS version
+skipif_ocs_version = pytest.mark.skipif_ocs_version
